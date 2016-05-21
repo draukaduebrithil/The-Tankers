@@ -5,3 +5,11 @@ sdlappli.hpp
 sdlappli.cpp
 SConstruct
 Makefile
+LICENSE
+main.cpp
+Makefile
+README.md
+SConstruct
+sdlappli.cpp
+sdlappli.hpp
+img/hello.bmp
