@@ -75,16 +75,16 @@ void SDLAppli::test()
 
 void SDLAppli::main_loop()
 {
-    //Clear screen
-    SDL_RenderClear( ren_ );
+	//Clear screen
+	SDL_RenderClear( ren_ );
 
 	/* dla każdego obiektu w sdlobjects_ */
-    for(SDLObject* &obj : sdlobjects_ ) {
-        obj->step();
-    }
+	for(SDLObject* &obj : sdlobjects_ ) {
+		obj->step();
+	}
 
-    //Update screen
-    SDL_RenderPresent( ren_ );
+	//Update screen
+	SDL_RenderPresent( ren_ );
 }
 
 void SDLAppli::addSDLObject(SDLObject *obj)

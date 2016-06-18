@@ -21,7 +21,7 @@ public:
 	void test();
 
     /** main_loop() should be executed in the main loop() */
-    void main_loop();
+	void main_loop();
 
     void addSDLObject(SDLObject *obj);
 
