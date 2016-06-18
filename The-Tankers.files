@@ -4,7 +4,6 @@ main.cpp
 sdlappli.hpp
 sdlappli.cpp
 SConstruct
-Makefile
 LICENSE
 main.cpp
 Makefile
@@ -13,3 +12,16 @@ SConstruct
 sdlappli.cpp
 sdlappli.hpp
 img/hello.bmp
+img/hello.bmp
+LICENSE
+main.cpp
+Makefile
+README.md
+SConstruct
+sdlappli.cpp
+sdlappli.hpp
+sdlobject.cpp
+sdlobject.hpp
+tank.cpp
+tank.hpp
+thetankers

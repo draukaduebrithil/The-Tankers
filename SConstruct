@@ -13,7 +13,7 @@ env = Environment(); #  srodowisko, czesc skladni SConstruct
 env.Append(CCFLAGS = ' -Wall --std=c++11 -g  ');
 
 #  SDL - chcemy kompilowac z SDL-em
-env.Append(LINKFLAGS = ' -lSDL2 ');
+env.Append(LINKFLAGS = ' -lSDL2 -lSDL2_image ');
 
 # jak wpiszemy 'scons thetankers' to ma sie zrobic program thetankers
 thetankers = env.Program(target = 'thetankers', source = sources);

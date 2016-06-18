@@ -1,14 +1,19 @@
 #include <iostream>
 #include <SDL2/SDL.h>
 #include "sdlappli.hpp"
+#include "tank.hpp"
 
 int main(int, char**){
-	// jest wywoływany konstruktor
 	SDLAppli sdlappli;
+	Tank tank(sdlappli.getRen());
+	sdlappli.addSDLObject(&tank);
 
-	// wywołujemy funkcję test() w sdlappli
-	sdlappli.test();
+	for(int i=0;i<1000;++i ) {
+		sdlappli.main_loop();
 
-	// destruktor jest wywoływany automatycznie
+		// 50 ms to dobra liczba
+		SDL_Delay(50);
+	}
+
 	return 0;
 }
